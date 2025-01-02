@@ -1,6 +1,6 @@
 import { describe, expect, it, vi, afterEach } from "vitest";
 import { cleanup, render, screen } from "@testing-library/react";
-import Day1 from "@/components/Day1";
+import Day2 from "@/components/Day2";
 
 vi.mock("next/navigation");
 
@@ -14,14 +14,14 @@ vi.mock("@/components/DayHeader", () => {
   };
 });
 
-describe("Day1", () => {
+describe("Day2", () => {
   afterEach(() => {
     cleanup();
     vi.clearAllMocks();
   });
 
   it("renders", () => {
-    render(<Day1 />);
-    expect(screen.getByTestId("Day1")).toBeInTheDocument();
+    render(<Day2 />);
+    expect(screen.getByTestId("Day2")).toBeInTheDocument();
   });
 });

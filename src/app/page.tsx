@@ -13,10 +13,16 @@ export default function Home() {
         &quot;Pot Limit Omaha&quot; variants.
       </p>
       <p className="text-lg font-bold">Entries</p>
-      <ol>
+      <ol className="flex flex-col gap-y-2">
         <li>
           <Link href="/day/1" className="underline">
-            Day 1 - Why I&apos;ve Chosen to Stop Multi-Tabling Poker
+            • Day 1 - Why I&apos;ve Chosen to Stop Multi-Tabling Poker
+          </Link>
+        </li>
+        <li>
+          <Link href="/day/2" className="underline">
+            • Day 2 - Playing 99-JJ Out of Position in a 3-Bet Pot: Can
+            Donk-Betting Solve the Problem?
           </Link>
         </li>
       </ol>
