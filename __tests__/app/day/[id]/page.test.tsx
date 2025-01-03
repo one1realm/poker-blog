@@ -2,9 +2,10 @@ import { describe, expect, it, vi } from "vitest";
 import { act, render } from "@testing-library/react";
 import Page, { generateStaticParams } from "@/app/day/[id]/page";
 
-const { mockDay1, mockDay2 } = vi.hoisted(() => ({
+const { mockDay1, mockDay2, mockDay3 } = vi.hoisted(() => ({
   mockDay1: vi.fn(),
   mockDay2: vi.fn(),
+  mockDay3: vi.fn(),
 }));
 
 vi.mock("@/components/Day1", () => {
@@ -16,6 +17,12 @@ vi.mock("@/components/Day1", () => {
 vi.mock("@/components/Day2", () => {
   return {
     default: mockDay2,
+  };
+});
+
+vi.mock("@/components/Day3", () => {
+  return {
+    default: mockDay3,
   };
 });
 
@@ -32,6 +39,10 @@ describe("Page", () => {
 
   it("renders 'Day2' component", async () => {
     render(<Page params={(async () => ({ id: "2" }))()} />);
+  });
+
+  it("renders 'Day3' component", async () => {
+    render(<Page params={(async () => ({ id: "3" }))()} />);
   });
 
   it("renders '<div>Not found</div>' component", async () => {

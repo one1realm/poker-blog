@@ -25,6 +25,11 @@ export default function Home() {
             Donk-Betting Solve the Problem?
           </Link>
         </li>
+        <li>
+          <Link href="/day/3" className="underline">
+            • Day 3 - Take Advantage of Weak Callers with Bigger Open-Raises
+          </Link>
+        </li>
       </ol>
     </div>
   );
