@@ -8,6 +8,14 @@ export default defineConfig({
   test: {
     environment: "jsdom",
     setupFiles: ["./__tests__/setupFiles.ts"],
+    coverage: {
+      thresholds: {
+        lines: 100,
+        functions: 100,
+        statements: 100,
+        branches: 100,
+      },
+    },
   },
   resolve: {
     alias: [{ find: "@", replacement: resolve(__dirname, "./src") }],
