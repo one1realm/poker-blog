@@ -1,6 +1,7 @@
 import Day1 from "@/components/Day1";
 import Day2 from "@/components/Day2";
 import Day3 from "@/components/Day3";
+import Day4 from "@/components/Day4";
 
 export async function generateStaticParams() {
   const days = [];
@@ -16,6 +17,8 @@ const dayProvider = (id: string) => {
       return <Day2 />;
     case "3":
       return <Day3 />;
+    case "4":
+      return <Day4 />;
     default:
       return <div>Not found</div>;
   }

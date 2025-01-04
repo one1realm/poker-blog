@@ -30,6 +30,11 @@ export default function Home() {
             • Day 3 - Take Advantage of Weak Callers with Bigger Open-Raises
           </Link>
         </li>
+        <li>
+          <Link href="/day/4" className="underline">
+            • Day 4 - Staying Sober and Sharper at the Table
+          </Link>
+        </li>
       </ol>
     </div>
   );
