@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest",
-    "test:coverage": "vitest --reporter=verbose --coverage",
+    "test:coverage": "vitest --reporter=verbose --coverage --run",
     "test:ui": "vitest --ui --coverage"
   },
   "dependencies": {
