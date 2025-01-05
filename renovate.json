@@ -3,8 +3,6 @@
   "extends": ["config:recommended"],
   "baseBranches": ["main"],
   "labels": ["Renovate", "Dependencies"],
-  "automerge": true,
-  "autoApprove": true,
-  "automergeType": "pr",
+  "automergeType": "branch",
   "automergeComment": "chore(deps): updated dependency"
 }
