@@ -35,6 +35,11 @@ export default function Home() {
             • Day 4 - Staying Sober and Sharper at the Table
           </Link>
         </li>
+        <li>
+          <Link href="/day/5" className="underline">
+            • Day 5 - Key Reasons to Fold Low Pocket Pairs in Early Position
+          </Link>
+        </li>
       </ol>
     </div>
   );

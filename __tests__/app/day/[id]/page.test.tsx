@@ -56,6 +56,10 @@ describe("Page", () => {
     render(<Page params={(async () => ({ id: "4" }))()} />);
   });
 
+  it("renders 'Day5' component", async () => {
+    render(<Page params={(async () => ({ id: "5" }))()} />);
+  });
+
   it("renders '<div>Not found</div>' component", async () => {
     render(<Page params={(async () => ({ id: "0" }))()} />);
   });
