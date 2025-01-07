@@ -45,6 +45,11 @@ export default function Home() {
             • Day 6 - A Bad Call in Yesterday&apos;s Live Poker Session
           </Link>
         </li>
+        <li>
+          <Link href="/day/7" className="underline">
+            • Day 7 - My Experience with a Player Going All-In Every Hand
+          </Link>
+        </li>
       </ol>
     </div>
   );
