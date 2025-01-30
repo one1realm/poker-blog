@@ -4,5 +4,6 @@
   "baseBranches": ["main"],
   "labels": ["Renovate", "Dependencies"],
   "automergeType": "branch",
-  "automergeComment": "chore(deps): updated dependency"
+  "automergeComment": "chore(deps): updated dependency",
+  "automerge": "true"
 }
