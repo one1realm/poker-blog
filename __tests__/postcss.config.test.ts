@@ -5,7 +5,7 @@ describe("postcss.config", () => {
   it("has expected configuration", () => {
     expect(postcss).toStrictEqual({
       plugins: {
-        tailwindcss: {},
+        "@tailwindcss/postcss": {},
       },
     });
   });
