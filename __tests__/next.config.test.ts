@@ -3,6 +3,10 @@ import { describe, expect, it } from "vitest";
 
 describe("next.config", () => {
   it("has expected configuration", () => {
-    expect(nextConfig).toStrictEqual({});
+    expect(nextConfig).toStrictEqual({
+      experimental: {
+        reactCompiler: true,
+      },
+    });
   });
 });
