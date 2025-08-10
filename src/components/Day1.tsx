@@ -13,8 +13,6 @@ export default function Day1() {
         {"< Back"}
       </Link>
       <DayHeader
-        day={"1"}
-        date={"2025-01-01"}
         title={"Why I've Chosen to Stop Multi-Tabling Poker"}
         tagTypes={["General", "Mental game"]}
       />

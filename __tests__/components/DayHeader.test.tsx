@@ -20,8 +20,6 @@ describe("DayHeader", () => {
   it("renders", () => {
     render(
       <DayHeader
-        day="1"
-        date="2025-01-01"
         title="First day title"
         tagTypes={["General", "Mental game"]}
       />

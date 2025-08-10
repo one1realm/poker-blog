@@ -24,4 +24,9 @@ describe("Day4", () => {
     render(<Day4 />);
     expect(screen.getByTestId("Day4")).toBeInTheDocument();
   });
+
+  it("does not contain em dashes", () => {
+    const { container } = render(<Day4 />);
+    expect(container.innerHTML).not.toContain("—");
+  });
 });

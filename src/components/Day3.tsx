@@ -1,5 +1,6 @@
 "use client";
 
+import Cards from "./Cards";
 import DayHeader from "./DayHeader";
 import Link from "next/link";
 
@@ -13,8 +14,6 @@ export default function Day3() {
         {"< Back"}
       </Link>
       <DayHeader
-        day={"3"}
-        date={"2025-01-03"}
         title={"Take Advantage of Weak Callers with Bigger Open-Raises"}
         tagTypes={["No Limit Hold'em"]}
       />
@@ -31,7 +30,9 @@ export default function Day3() {
         is about 5 big blinds, which is typical for live games. We also notice
         that the game seems to be rather weak-passive, the flops are often
         multi-way, we rarely see 3bets, and players tend to have wide hand
-        ranges, frequently holding hands like A4s, Q9o, K7o, J7s, and 33.
+        ranges, frequently holding hands like <Cards hand="As4s" />,{" "}
+        <Cards hand="Qh9c" />, <Cards hand="Kd7c" />, <Cards hand="Jh7h" />, and
+        <Cards hand="3c3d" />.
       </p>
       <p>
         From this, we conclude that there&apos;s an opportunity to increase our

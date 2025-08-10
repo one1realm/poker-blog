@@ -16,38 +16,43 @@ export default function Home() {
       <ol className="flex flex-col gap-y-2">
         <li>
           <Link href="/day/1" className="underline">
-            • Day 1 - Why I&apos;ve Chosen to Stop Multi-Tabling Poker
+            1 - Why I&apos;ve Chosen to Stop Multi-Tabling Poker
           </Link>
         </li>
         <li>
           <Link href="/day/2" className="underline">
-            • Day 2 - Playing 99-JJ Out of Position in a 3-Bet Pot: Can
-            Donk-Betting Solve the Problem?
+            2 - Playing 99-JJ Out of Position in a 3-Bet Pot: Can Donk-Betting
+            Solve the Problem?
           </Link>
         </li>
         <li>
           <Link href="/day/3" className="underline">
-            • Day 3 - Take Advantage of Weak Callers with Bigger Open-Raises
+            3 - Take Advantage of Weak Callers with Bigger Open-Raises
           </Link>
         </li>
         <li>
           <Link href="/day/4" className="underline">
-            • Day 4 - Staying Sober and Sharper at the Table
+            4 - Staying Sober and Sharper at the Table
           </Link>
         </li>
         <li>
           <Link href="/day/5" className="underline">
-            • Day 5 - Key Reasons to Fold Low Pocket Pairs in Early Position
+            5 - Key Reasons to Fold Low Pocket Pairs in Early Position
           </Link>
         </li>
         <li>
           <Link href="/day/6" className="underline">
-            • Day 6 - A Bad Call in Yesterday&apos;s Live Poker Session
+            6 - A Bad Call in Yesterday&apos;s Live Poker Session
           </Link>
         </li>
         <li>
           <Link href="/day/7" className="underline">
-            • Day 7 - My Experience with a Player Going All-In Every Hand
+            7 - My Experience with a Player Going All-In Every Hand
+          </Link>
+        </li>
+        <li>
+          <Link href="/day/8" className="underline">
+            8 - No Mind&apos;s Eye
           </Link>
         </li>
       </ol>
