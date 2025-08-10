@@ -1,5 +1,6 @@
 "use client";
 
+import Cards from "./Cards";
 import DayHeader from "./DayHeader";
 import Link from "next/link";
 
@@ -13,8 +14,6 @@ export default function Day2() {
         {"< Back"}
       </Link>
       <DayHeader
-        day={"2"}
-        date={"2025-01-02"}
         title={
           "Playing 99-JJ Out of Position in a 3-Bet Pot: Can Donk-Betting Solve the Problem?"
         }
@@ -23,8 +22,9 @@ export default function Day2() {
       <p>
         During a recent morning poker session, I found myself in a spot that I
         often find uncomfortable: playing 6-max No Limit Hold&apos;em from early
-        position with a medium-high pocket pair, specifically 99 to JJ. I
-        open-raise, and the player to my left calls, followed by the player in
+        position with a medium-high pocket pair, specifically{" "}
+        <Cards hand="9d9h" />, <Cards hand="TsTh" />, and <Cards hand="JhJs" />.
+        I open-raise, and the player to my left calls, followed by the player in
         the next position who decides to squeeze.
       </p>
 
@@ -45,7 +45,7 @@ export default function Day2() {
         players behind me to act first. This gives me time to reassess. More
         often than not, this feels like the natural progression of the hand.
         However, I find this approach problematic when I&apos;ve flopped a
-        vulnerable overpair — a situation that occurs roughly 25% of the time.
+        vulnerable overpair, a situation that occurs roughly 25% of the time.
       </p>
 
       <p>
@@ -61,14 +61,14 @@ export default function Day2() {
       </p>
 
       <p>
-        But wait — let&apos;s not rush. We&apos;re up against an uncapped
-        villain who 3-bet preflop, and there&apos;s a real possibility that they
-        hold a higher pocket pair. As tempting as it might be to build the pot
-        now, we have to consider whether that&apos;s the right move.
+        But wait, let&apos;s not rush. We&apos;re up against an uncapped villain
+        who 3-bet preflop, and there&apos;s a real possibility that they hold a
+        higher pocket pair. As tempting as it might be to build the pot now, we
+        have to consider whether that&apos;s the right move.
       </p>
 
       <p>
-        The alternative — checking — is also unappealing. If I check, the
+        The alternative, checking, is also unappealing. If I check, the
         aggressor can continuation-bet with their premium hands and strong
         draws, while also checking back weaker hands like mid-to-bottom pairs or
         gutshots, hoping to improve on later streets.

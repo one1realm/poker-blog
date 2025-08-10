@@ -1,5 +1,6 @@
 "use client";
 
+import Cards from "./Cards";
 import DayHeader from "./DayHeader";
 import Link from "next/link";
 
@@ -13,8 +14,6 @@ export default function Day5() {
         {"< Back"}
       </Link>
       <DayHeader
-        day={"5"}
-        date={"2025-01-05"}
         title={"Key Reasons to Fold Low Pocket Pairs in Early Position"}
         tagTypes={["No Limit Hold'em"]}
       />
@@ -29,18 +28,20 @@ export default function Day5() {
         threes, we&apos;re essentially &quot;blocking&quot; a significant
         portion of our opponents&apos; potential pre-flop folding range. In
         other words, by holding these hands, we reduce the likelihood that our
-        opponents will have weak hands like A2o, K3o, or 72o. This increases the
-        risk that opponents will call our raise, leaving us in a tricky spot
-        where we have to play out-of-position with a hand that has poor
-        post-flop playability. Even worse, we might face a 3-bet, and we&apos;ll
-        be forced to fold without realizing the equity of our hand.
+        opponents will have weak hands like <Cards hand="Ad2c" />,{" "}
+        <Cards hand="Kh3s" />, or <Cards hand="7d2h" />. This increases the risk
+        that opponents will call our raise, leaving us in a tricky spot where we
+        have to play out-of-position with a hand that has poor post-flop
+        playability. Even worse, we might face a 3-bet, and we&apos;ll be forced
+        to fold without realizing the equity of our hand.
       </p>
       <p>
-        Compare this a hand like A5s, which block potential ace-high hands from
-        opponents, but it also unblocks weaker hands that might contain a deuce
-        or three. Additionally, A5s has good post-flop potential, with chances
-        to hit nut flush draws or both high and low straights, giving it much
-        better playability compared to low pocket pairs.
+        Compare this a hand like <Cards hand="Ac5c" />, which block potential
+        ace-high hands from opponents, but it also unblocks weaker hands that
+        might contain a deuce or three. Additionally, <Cards hand="Ac5c" /> has
+        good post-flop potential, with chances to hit nut flush draws or both
+        high and low straights, giving it much better playability compared to
+        low pocket pairs.
       </p>
     </div>
   );

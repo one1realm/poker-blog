@@ -13,8 +13,6 @@ export default function Day4() {
         {"< Back"}
       </Link>
       <DayHeader
-        day={"4"}
-        date={"2025-01-04"}
         title={"Staying Sober and Sharper at the Table"}
         tagTypes={["General"]}
       />
@@ -45,7 +43,7 @@ export default function Day4() {
 
       <p>
         I&apos;m also committed to staying more focused and actively engaged in
-        the game — particularly when it comes to profiling my opponents and
+        the game, particularly when it comes to profiling my opponents and
         identifying exploitable patterns that I can use to my advantage in
         future hands.
       </p>
